@@ -1,3 +1,23 @@
+# =============================================================================
+# Author       : Studio Clue
+# Created Date : 2025-05-22
+# Description  : 
+"""
+Dynamic Facade Panelization Generator for Rhino + Python
+--------------------------------------------------------
+This script creates randomized panel systems along any selected curve
+by distributing circles of varying sizes, finding intersection points,
+and extruding vertical surfaces. Each panel gets its own colored layer
+for easy organization and material assignment.
+
+Perfect for facade design, curtain wall studies, and exploring
+parametric cladding systems with controlled randomness.
+
+Great for learning curve analysis, geometric intersections, and
+automated 3D geometry generation with RhinoScriptSyntax.
+"""
+# =============================================================================
+
 # -*- coding: utf-8 -*-
 import rhinoscriptsyntax as rs
 import scriptcontext as sc
